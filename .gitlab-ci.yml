@@ -1,5 +1,13 @@
 stages:
+  - build
   - release
+
+tests:
+  stage: build
+  script:
+    - ls
+  tags:
+    - push_test
 
 merge:
   stage: release
