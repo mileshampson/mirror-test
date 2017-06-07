@@ -6,5 +6,5 @@ The gitlab public key can be temporarily added to github authorized users, githu
 post-receive server hook checking the branch revisions and pushing them to the github remote should be added.
 </p>
 <p>
-If you are seeing this text in github, all of the above does indeed work!
+If you are seeing this text in github, then the above does indeed work!
 </p>
