@@ -8,12 +8,3 @@ tests:
     - ls
   tags:
     - push_test
-
-merge:
-  stage: release
-  only:
-    - master
-  script:
-    - git push -u github $CI_COMMIT_REF_NAME
-  tags:
-    - push_test
