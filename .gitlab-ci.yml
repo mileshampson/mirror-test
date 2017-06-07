@@ -1,0 +1,11 @@
+stages:
+  - release
+
+merge:
+  stage: release
+  only:
+    - master
+  script:
+    - git push --quiet github
+  tags:
+    - push_test
